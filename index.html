@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bridging Gaps</title>
+    <link rel="stylesheet" href="./assests/css/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jomhuria&family=Pacifico&family=Raleway:wght@300;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assests/vendors/fontawesome/css/all.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+       
+        .open-button {
+            background-color: #555;
+            color: black;
+            padding: 16px 20px;
+            border: none;
+            cursor: pointer;
+            opacity: 0.8;
+            position: fixed;
+            bottom: 23px;
+            right: 28px;
+            width: 280px;
+        }
+
+        
+        .chat-popup {
+            display: none;
+            position: fixed;
+            bottom: 0;
+            right: 15px;
+            border: 3px solid black;
+            z-index: 9;
+        }
+
+       
+        .form-container {
+            max-width: 300px;
+            padding: 10px;
+            background-color: rgb(151, 162, 162);
+        }
+
+            
+            .form-container textarea {
+                width: 100%;
+                padding: 15px;
+                margin: 5px 0 22px 0;
+                border: none;
+                background: #f1f1f1;
+                resize: none;
+                min-height: 200px;
+            }
+
+                
+                .form-container textarea:focus {
+                    background-color: white;
+                    outline: none;
+                }
+
+           
+            .form-container .btn {
+                background-color: #68d4dc;
+                color: black;
+                padding: 16px 20px;
+                border: none;
+                cursor: pointer;
+                width: 100%;
+                margin-bottom: 10px;
+                opacity: 0.8;
+            }
+
+           
+            .form-container .cancel {
+                background-color: rgb(162, 30, 232);
+            }
+
+           
+            .form-container .btn:hover, .open-button:hover {
+                opacity: 1;
+            }
+    </style>
+  </head>
+  <body id="bdl1">
+   
+    <div class="header">
+      <div class="logo">
+        <a id="cdl1" href="index.html"
+          ><span class="B-Bridging">B</span>ridging
+          <span class="G-Gap">G</span>ap</a
+        >
+        <button id="darkMode" type="button" onclick="darkMode()">
+          <i class="fa-regular fa-moon"></i>
+        </button>
+        <button id="lightMode" type="button" onclick="lightMode()">
+          <i class="fa-solid fa-sun"></i>
+        </button>
+      </div>
+      <div class="nav">
+        <ul>
+          <li><a id="cdl2" href="#" class="nav-btn">Get Started</a></li>
+          <li><a id="cdl3" href="#main">main</a></li>
+          <li><a id="cdl4" href="#about-us">about us</a></li>
+          <li><a id="cdl5" href="#our-services">services</a></li>
+          <li><a id="cdl6" href="#our-clients">our clients</a></li>
+          <li><a id="cdl7" href="#contact-us">contact us</a></li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="container" id="bdl2">
+      <!--   ===== Top Content =====   -->
+      <div class="top-content" id="main">
+        <div class="moving-logo">
+          <img src="./assests/images/logo.jpg" alt="Sigma Star Logo" />
+        </div>
+
+        <div class="main-text">
+          <h1 id="cdl8">Bridging Gap</h1>
+          <h2 id="cdl9">
+            Welcome to Bridging Gaps With us we are closer together Even if that special kind of purest people are few A special people needs a special treatment This is a clearer reason to care about them more To help them connect with us easily they are important to our society more than any one think
+          </h2>
+          <a href="#">Start</a>
+        </div>
+      </div>
+      <!--   ===== cards-p1 =====   -->
+      <div class="cards-p1">
+        <div class="vision" id="b2dl1">
+          <i class="fa-solid fa-laptop icons"></i>
+          <h2 id="cdl10">vision</h2>
+          <p id="cdl11">
+            Bridging Gaps aims to provide the best integrated services to our existing customers and acquire new customers, provided that the services provided are of the best quality, as we mainly care about all the details and the most accurate requirements in various areas of our work
+          </p>
+        </div>
+        <div class="why-us" id="b2dl2">
+          <i class="fa-solid fa-list-check icons"></i>
+          <h2 id="cdl12">why us</h2>
+          <p id="cdl13">
+           Bridging Gaps is the one and only type of website and soon as application
+          </p>
+        </div>
+      </div>
+      <!--   ===== cards-p2 =====   -->
+      <div class="cards-p2" id="about-us">
+        <div class="about-us-img">
+          <img src="./assests/images/blackC.jpg" alt="ABOUT US IMAGE" />
+        </div>
+        <div class="about-us-info">
+          <h2 id="cdl14">about us</h2>
+          <p id="cdl15">
+            A special people needs a special treatment This is a clearer reason to care about them more To help them connect with us easily they are important to our society
+          </p>
+        </div>
+      </div>
+      <!--   ===== cards-p3 =====   -->
+      <div class="cards-p3" id="our-services">
+
+        <div class="our-services" id="b2dl3">
+          <h2 id="cdl16">Services</h2>
+          <p id="cdl17">
+            list of our services or info part:
+          </p>
+        </div>
+        <div class="mini-cards">
+          <div class="minicard" id="bdl3">
+            <i class="fa-solid fa-eye"></i>
+            <h2 id="cdl18">Blind</h2>
+          </div>
+          <div class="minicard" id="bdl4">
+            <i class="fa-solid fa-ear-deaf"></i>
+            <h2 id="cdl19">Deaf</h2>
+          </div>
+          <div class="minicard" id="bdl5">
+            <i class="fa-solid fa-a"></i>
+            <h2 id="cdl20">Anosmia</h2>
+          </div>
+          <div class="minicard" id="bdl6">
+            <i class="fa-solid fa-teeth-open"></i>
+            <h2 id="cdl21"> Dysgeusia</h2>
+          </div>
+          <div class="minicard" id="bdl7">
+            <i class="fa-solid fa-hands"></i>
+            <h2 id="cdl22">Hands and Arms</h2>
+          </div>
+          <div class="minicard" id="bdl8">
+            <i class="fa-solid fa-wheelchair-move"></i>
+            <h2 id="cdl23"> legs</h2>
+          </div>
+          <div class="minicard" id="bdl9">
+            <i class="fa-solid fa-child-reaching"></i>
+            <h2 id="cdl24">Autism</h2>
+          </div>
+          <div class="minicard" id="bdl10">
+            <i class="fa-solid fa-hands-asl-interpreting"></i>
+            <h2 id="cdl25"> Speech Stutter</h2>
+          </div>
+          <div class="minicard" id="bdl11">
+            <i class="fa-solid fa-hands-holding-child"></i>
+            <h2 id="cdl26">Down </h2>
+          </div>
+        </div>
+      </div>
+      
+  <!--   ===== cards-p4 =====   -->
+  <div class="cards-p4" id="contact-us">
+    <div class="contact-us">
+      <h2 id="cdl32"> contact us</h2>
+      <p id="cdl33">
+        To contact Bridging Gaps Customer Service, you can use one of the
+         The following means of communication  :
+      </p>
+    </div>
+    <div class="contact-minicards">
+      <div class="location" id="b2dl4">
+        <div class="adress">
+          <i id="bdl15" class="fa-solid fa-location-dot"></i>
+          <div>
+            <h3 id="cdl34">Address:</h3>
+            <p id="cdl35">El lebny - Giza</p>
+          </div>
+        </div>
+        <div class="email">
+          <i id="bdl16" class="fa-regular fa-envelope"></i>
+          <div>
+            <h3 id="cdl36"> Email:</h3>
+            <p id="cdl37">habebazyad2114@gmail.com</p>
+          </div>
+        </div>
+        <div class="number">
+          <i id="bdl17" class="fa-solid fa-mobile-screen-button"></i>
+          <div>
+            <h3 id="cdl38">الهاتف:</h3>
+            <p id="cdl39">01118309326-01033245000</p>
+          </div>
+        </div>
+        <iframe
+          src="assests/images/OIP.jpg"
+          frameborder="0"
+        ></iframe>
+      </div>
+      <div class="contact-form" id="b2dl5">
+        <form>
+          <div class="top">
+            <div>
+              <label id="cdl40" for="username">name </label>
+              <input type="text" name="username" />
+            </div>
+            <div>
+              <label id="cdl41" for="email">email</label>
+              <input type="email" name="email" />
+            </div>
+          </div>
+          <div class="middle">
+            <label id="cdl42" for="subject">subject</label>
+            <input type="text" name="subject" />
+          </div>
+          <div class="bottom">
+            <label id="cdl43" for="message">message</label>
+            <textarea name="message" cols="30" rows="15"></textarea>
+          </div>
+          <button id="cdl44" type="submit">submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+    <button class="open-button" onclick="openForm()">Chat</button>
+
+    <div class="chat-popup" id="myForm">
+        <form action="/action_page.php" class="form-container">
+            <h1>Chat</h1>
+
+            <label for="msg"><b>Message</b></label>
+            <textarea placeholder="Type message.." name="msg" required></textarea>
+
+            <button type="submit" class="btn">Send</button>
+            <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+        </form>
+    </div>
+      <!--   ===== cards-p5 =====   -->
+      <div class="cards-p5" id="b2dl6">
+        <div class="co-name" id="b2dl7">
+          <h2 id="cdl45">Bridging Gaps</h2>
+        </div>
+        <div class="social-icons">
+          <i id="cdl46" class="fa-brands fa-twitter"></i>
+          <i id="cdl47" class="fa-brands fa-facebook-f"></i>
+          <i id="cdl48" class="fa-brands fa-instagram"></i>
+          <i id="cdl49" class="fa-brands fa-skype"></i>
+          <i id="cdl50" class="fa-brands fa-linkedin-in"></i>
+        </div>
+        <hr />
+        <div class="copy-rightp">
+          <div class="creator">
+            <p id="cdl51">Redesigned by <a>Habeba Emad</a></p>
+          </div>
+          <div class="copy-rightc">
+            <p id="cdl52">
+              © Copyright <span>Bridging Gaps </span>. All Rights Reserved
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ========== Container End ======== -->
+    <script src="./assests/js/main.js"></script>
+  </body>
+</html>
